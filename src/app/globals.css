@@ -70,6 +70,55 @@ a {
   text-decoration: none;
 }
 
+/* Force visible nav links on dark header (override a { color: inherit }) */
+.site-header {
+  background: rgba(11, 18, 32, 0.92);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.site-header .nav-brand,
+.site-header .nav-link {
+  color: #ffffff !important;
+}
+
+.site-header .nav-brand .dot {
+  color: #60a5fa !important;
+}
+
+.site-header .nav-link:hover {
+  color: #93c5fd !important;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.site-header .nav-cta {
+  color: #ffffff !important;
+  background: #1d4ed8 !important;
+}
+
+.site-header .nav-cta:hover {
+  color: #0b1220 !important;
+  background: #60a5fa !important;
+}
+
+.site-header .nav-burger {
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.site-header .nav-burger span {
+  background: #ffffff !important;
+}
+
+.site-header .nav-mobile {
+  background: #0b1220;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.site-header .nav-mobile a {
+  color: #ffffff !important;
+}
+
 .font-display {
   font-family: var(--font-syne), var(--font-manrope), sans-serif;
 }
