@@ -14,7 +14,7 @@ export function Hero() {
     >
       <div className="absolute inset-0 hero-mesh" />
 
-      <div className="section-pad relative z-10 flex min-h-[100svh] flex-col justify-center pb-16 pt-28">
+      <div className="section-pad relative z-10 flex min-h-[100svh] flex-col justify-center pb-16 pt-32 md:pt-28">
         <div className="container-wide">
           <div className="grid items-center gap-10 lg:grid-cols-[auto_minmax(0,1fr)] lg:gap-14 xl:gap-16">
             <div

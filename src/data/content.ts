@@ -110,10 +110,21 @@ export const experience = [
     company: "Upwork",
     period: "1 year",
     points: [
-      "Delivered production products end-to-end — accounting, POS / payments and a multi-stage clearance workflow, from API contracts to UI.",
+      "Delivered production products end-to-end — accounting, POS / payments and multi-stage workflows, from API contracts to UI.",
       "Designed a shared feature-based architecture (React + TypeScript, TanStack Query, Zustand, Ant Design) reused across products.",
       "Built modules for PSP / bank integrations, commissions, payouts and e-invoicing, with secure JWT + OTP auth and claim-based RBAC.",
       "Implemented SignalR real-time features and shipped React Native (Expo) apps for integrators and drivers.",
+    ],
+  },
+  {
+    role: "Front-End Developer",
+    company: "Tejarat Pardazan Electronic",
+    period: "Contract",
+    points: [
+      "Developed the front end of the Free-Zone Vehicle Clearance system — a configurable multi-stage enterprise workflow platform.",
+      "Built the web cartable UI for parallel process stages, expert workload balancing, process payments and session presence.",
+      "Worked with React, TypeScript, Ant Design, SignalR and dnd-kit to deliver a production clearance experience for operators.",
+      "Collaborated on the React Native (Expo) mobile companion for field and operational use.",
     ],
   },
   {
@@ -149,47 +160,52 @@ export const coreSkills = [
 
 export const skillGroups = [
   {
+    title: "Languages",
+    items: ["TypeScript", "JavaScript", "SQL", "HTML / CSS"],
+  },
+  {
     title: "Frontend",
-    items: ["React", "Next.js", "Vite", "SSR / SSG", "HTML / CSS"],
+    items: ["React", "Next.js", "Vite", "SSR / SSG", "Component architecture"],
   },
   {
-    title: "Backend & data",
-    items: [
-      "NestJS",
-      "Node.js",
-      "Express",
-      "REST APIs",
-      "SQL",
-      "Prisma",
-      "TypeORM",
-      "Sequelize",
-    ],
+    title: "Backend",
+    items: ["NestJS", "Node.js", "Express", "REST APIs", "DTO Validation"],
   },
   {
-    title: "UI & state",
-    items: [
-      "Ant Design",
-      "MUI",
-      "Tailwind",
-      "Framer Motion",
-      "TanStack Query",
-      "Zustand",
-      "Redux Toolkit",
-      "React Hook Form",
-    ],
+    title: "Data",
+    items: ["SQL", "Prisma", "TypeORM", "Sequelize", "Multi-tenant models"],
   },
   {
-    title: "Product & security",
+    title: "Mobile",
+    items: ["React Native", "Expo", "Integrator apps", "Driver apps"],
+  },
+  {
+    title: "UI systems",
+    items: ["Ant Design", "MUI", "Tailwind", "SASS", "Framer Motion", "Styled Components"],
+  },
+  {
+    title: "State & forms",
+    items: ["TanStack Query", "Zustand", "Redux Toolkit", "React Hook Form"],
+  },
+  {
+    title: "Security",
+    items: ["JWT / OTP Auth", "Claim-based RBAC", "DTO Validation", "Secure API contracts"],
+  },
+  {
+    title: "Product features",
     items: [
-      "JWT / OTP",
-      "RBAC",
-      "DTO Validation",
-      "SignalR",
-      "i18n EN/TR",
+      "SignalR realtime",
+      "i18n EN / TR",
       "RTL / Jalali",
       "Recharts",
       "ExcelJS",
+      "PSP / bank integrations",
+      "E-invoicing",
     ],
+  },
+  {
+    title: "Tools & delivery",
+    items: ["Git", "GitHub", "Chrome DevTools", "Agile", "Feature-based architecture"],
   },
 ] as const;
 
